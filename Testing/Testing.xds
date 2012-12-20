@@ -1,0 +1,48 @@
+{
+    "name": "Testing",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "e2fdd150-b69c-44eb-8564-8f2c5b4030a3": {
+            "paths": [
+                "metadata/view/MyContainer",
+                "app/view/override/MyContainer.js",
+                "app/view/MyContainer.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyContainer"
+        },
+        "fd1ebac9-86b1-4e79-85ac-a588a4752edb": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "e2fdd150-b69c-44eb-8564-8f2c5b4030a3"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "fd1ebac9-86b1-4e79-85ac-a588a4752edb"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

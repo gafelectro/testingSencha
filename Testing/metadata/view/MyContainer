@@ -1,0 +1,137 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer",
+        "designer|initialView": true,
+        "draggable": true,
+        "height": 748,
+        "width": 1229,
+        "autoScroll": true
+    },
+    "id": "ExtBox1-ext-gen4086",
+    "designerId": "e2fdd150-b69c-44eb-8564-8f2c5b4030a3",
+    "cn": [
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel",
+                "activeTab": 0
+            },
+            "designerId": "f082e487-ceec-4544-a8cf-b0dd5447c58c",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel",
+                        "title": "Tab 1"
+                    },
+                    "designerId": "01943f54-4a9f-4219-85e9-bde1d16caa73",
+                    "cn": [
+                        {
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig"
+                            },
+                            "designerId": "be5e8cf4-683f-4700-b300-eb2bed5ad8b2"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel1",
+                        "title": "Tab 2"
+                    },
+                    "designerId": "d8a8e3bf-2734-486b-a190-0e2cdc0f0c5d",
+                    "cn": [
+                        {
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig1"
+                            },
+                            "designerId": "3914e292-9c92-4d66-a538-b40584b54ec2"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel2",
+                        "title": "Tab 3"
+                    },
+                    "designerId": "b782ab21-3189-4c57-b9ae-36c6a432f2e3",
+                    "cn": [
+                        {
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig2"
+                            },
+                            "designerId": "f9f55d9a-8a3b-4569-9130-753039e72de5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "filefield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyFileUpload",
+                "designer|displayName": "archivooo",
+                "width": 199,
+                "fieldLabel": "Archivo",
+                "allowBlank": false,
+                "emptyText": "archivo",
+                "enforceMaxLength": true,
+                "grow": true,
+                "growMax": 40,
+                "buttonMargin": 10
+            },
+            "designerId": "d02f5170-e932-4944-9a15-dfb7c1e3b996"
+        }
+    ]
+}
