@@ -43,17 +43,6 @@ Ext.define('MyApp.view.MyContainer', {
                             title: 'Tab 3'
                         }
                     ]
-                },
-                {
-                    xtype: 'filefield',
-                    width: 199,
-                    fieldLabel: 'Archivo',
-                    allowBlank: false,
-                    emptyText: 'archivo',
-                    enforceMaxLength: true,
-                    grow: true,
-                    growMax: 400,
-                    buttonMargin: 90
                 }
             ]
         });

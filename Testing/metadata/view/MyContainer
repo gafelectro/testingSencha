@@ -111,27 +111,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "type": "filefield",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyFileUpload",
-                "designer|displayName": "archivooo",
-                "width": 199,
-                "fieldLabel": "Archivo",
-                "allowBlank": false,
-                "emptyText": "archivo",
-                "enforceMaxLength": true,
-                "grow": true,
-                "growMax": 40,
-                "buttonMargin": 10
-            },
-            "designerId": "d02f5170-e932-4944-9a15-dfb7c1e3b996"
         }
     ]
 }
